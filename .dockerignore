@@ -1,0 +1,15 @@
+# Files that should NOT be copied into the Docker image.
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.git/
+.gitignore
+venv/
+env/
+.env
+*.log
+tests/
+README.md
+DEPLOYMENT.md
+.github/
